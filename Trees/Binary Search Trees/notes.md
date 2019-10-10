@@ -3,7 +3,7 @@
 * ![](images/IMG_5934.jpg)
 * ![](images/IMG_5935.jpg)
 * To Do-
-  - [ ] CLRS Ch 10,12
+  - [ ] CLRS 12
   - [ ] https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/readings/binary-search-trees/
   - [ ] Stuff below
 * BST- dynamic version of sorted array
@@ -20,3 +20,4 @@
     * Single pass insert possible. Maybe via recursion. Try to think how
 * start tree-min/tree-max from root of the subtree where you want to call them
 - [ ] Leetcode questions
+- [ ] CLRS Ch 10
