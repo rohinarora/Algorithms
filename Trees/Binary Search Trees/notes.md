@@ -17,5 +17,5 @@
 * start tree-min/tree-max from root of the subtree where you want to call them
 
 * To Do-
-  [ ] CLRS Ch 10,12
+  [] CLRS Ch 10,12
   [ ] https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/readings/binary-search-trees/
