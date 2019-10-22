@@ -1,4 +1,5 @@
 * Go through ./MIT6_006F11_lec05.pdf
+* How to thing about bst insert (CLRS)- ![](images/IMG_5962.jpg)
 * ![](images/IMG_5933.jpg)
 * ![](images/IMG_5934.jpg)
 * ![](images/IMG_5935.jpg)
@@ -19,5 +20,6 @@
     * Second pass- if insert is possible, actually updated augmented data and also insert
     * Single pass insert possible. Maybe via recursion. Try to think how
 * start tree-min/tree-max from root of the subtree where you want to call them
+- [ ] https://www.geeksforgeeks.org/binary-tree-data-structure/
 - [ ] Leetcode questions
 - [ ] CLRS Ch 10

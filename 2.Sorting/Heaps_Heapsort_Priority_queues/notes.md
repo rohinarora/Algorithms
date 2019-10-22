@@ -1,5 +1,6 @@
 * Note: Array indexing starts from 1 here. (in examples)
 * Go through- ./MIT6_006F11_lec04_heaps.pdf
+  * heapsort code slide 22
 * When you modify a DS, you want to maintain the original invariants
 * Priority queue is a set S of elements. Each element is associated with a key. Each entry in the priority queue can now store complex data structure (like age, address etc), instead of a single entry as in array. The key is used for priority/ordering and is also a pointer to actual data structure. What key is to be used depends on the problem
 * Heaps are interesting case study of representing trees via arrays. Whenever you think of heap; think of an array, seen a **nearly complete** binary tree. Heap has O(logn) levels because its a balanced binary tree
@@ -10,6 +11,7 @@
 * Heapsort seems to take O(nlogn) even if array is sorted. Recheck/reconfirm
 * Think how to perform+implement insert(S,x) and Increase_key(S,x,k) in heaps
 ```
+theta(logn) time. nearly complete binary tree
 def max_heapify(A,i):
   l=left(i) #returns left child of i
   r=right(i) #returns right child of i

@@ -1,0 +1,47 @@
+def repeatedNumber(self, A):
+    import sys
+    #return any element which repeats
+    #for more than n/3 times; n=len(A)
+
+    #Moore's voting algorithm
+    #find two top candidates
+
+    first = sys.maxsize   #first majority candidate
+    second = sys.maxsize  #second majority candidate
+
+    count1 = 0 #score for first majority candidate
+    count2 = 0 #score for second majority candidate
+
+    for i in range(len(A)):
+        #if match with first or second, then increment count
+        #if count hit 0, then change candidates
+        #else discrease count
+        if(A[i]==first):
+            count1 +=1
+        elif(A[i]==second):
+            count2 +=1
+        elif(count1 ==0):
+            first = A[i]
+            count1 = 1
+        elif(count2 == 0):
+            second = A[i]
+            count2 = 1
+        else:
+            count1 -=1
+            count2 -=1
+
+    #reset count, and count the accual accurances of candidates
+    count1 = 0
+    count2 = 0
+    for i in range(len(A)):
+        if(A[i]==first):
+            count1 +=1
+        elif(A[i]==second):
+            count2 +=1
+    #check if either repeats for more than n/3 times
+    if(count1 > len(A)/3):
+        return first
+    elif(count2 > len(A)/3):
+        return second
+    else:
+        return -1
