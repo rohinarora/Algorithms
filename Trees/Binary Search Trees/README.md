@@ -16,8 +16,8 @@
   * We spent O(nlogn) time to build the tree
 * Morris pre/inorder- O(1) space, O(n) time
 
-### Code
-* Traversals- [🐍](https://github.com/rohinarora/Algorithms/blob/master/Trees/Binary%20Search%20Trees/CLRS_Ch12/BST_traveral.py)
+### Code 🐍
+* [Traversals](https://github.com/rohinarora/Algorithms/blob/master/Trees/Binary%20Search%20Trees/CLRS_Ch12/BST_traveral.py)
 
 ### To Do
 * breadth first traversal
