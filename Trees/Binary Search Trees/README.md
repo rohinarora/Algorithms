@@ -1,4 +1,4 @@
-##### Notes
+#### Notes
 * in_order_traversal- 3 ways
   * recursive (1)
   * iterative and stack (2)
@@ -16,8 +16,8 @@
   * We spent O(nlogn) time to build the tree
 * Morris pre/inorder- O(1) space, O(n) time
 
-##### Code
+#### Code
 * Traversals- [🐍](https://github.com/rohinarora/Algorithms/blob/master/Trees/Binary%20Search%20Trees/CLRS_Ch12/BST_traveral.py)
 
-##### To Do
+#### To Do
 * breadth first traversal
