@@ -1,12 +1,9 @@
 * Go through ./MIT6_006F11_lec05.pdf
-* How to thing about bst insert (CLRS)- ![](images/IMG_5962.jpg)
+* How to think about bst insert (CLRS)- ![](images/IMG_5962.jpg)
 * ![](images/IMG_5933.jpg)
 * ![](images/IMG_5934.jpg)
 * ![](images/IMG_5935.jpg)
-* To Do-
-  - [ ] CLRS 12
-  - [ ] https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/readings/binary-search-trees/
-  - [ ] Stuff below
+* start tree-min/tree-max from root of the subtree where you want to call them
 * BST- dynamic version of sorted array
 * Types of balanced BST's-
   * Red black
@@ -19,7 +16,9 @@
     * One pass- try to insert.
     * Second pass- if insert is possible, actually updated augmented data and also insert
     * Single pass insert possible. Maybe via recursion. Try to think how
-* start tree-min/tree-max from root of the subtree where you want to call them
-- [ ] https://www.geeksforgeeks.org/binary-tree-data-structure/
-- [ ] Leetcode questions
-- [ ] CLRS Ch 10
+* To Do-
+  - [X] CLRS 12
+  - [ ] CLRS Ch 18
+  - [ ] https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/readings/binary-search-trees/ (remaining)
+  - [ ] Tim remaining
+  Will come back to read black, B (12, 18, Tim) if required

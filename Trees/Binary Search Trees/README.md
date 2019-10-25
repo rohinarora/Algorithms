@@ -16,14 +16,26 @@
   * We spent O(nlogn) time to build the tree
 * Morris pre/inorder- O(1) space, O(n) time
   * Idea of Morris Traversal is based on Threaded Binary Tree.
+* Tree search
+  * recursive
+  * iterative
+* Tree Min, Tree Max
+* Successor, Predecessor
+  * refer pred_succ_bst.md
+* Tree insert
+  * trailing pointer
+* Tree delete (and Transplant)
+  * refer delete.md
 
 ### Code 🐍
 * [Traversals](https://github.com/rohinarora/Algorithms/blob/master/Trees/Binary%20Search%20Trees/CLRS_Ch12/BST_traveral.py)
+* [Insert](https://github.com/rohinarora/Algorithms/blob/master/Trees/Binary%20Search%20Trees/CLRS_Ch12/bst.py)
+* [Rank](https://github.com/rohinarora/Algorithms/blob/master/Trees/Binary%20Search%20Trees/CLRS_Ch12/bstsize.py)
 
 ### To Do
-* https://www.geeksforgeeks.org/level-order-tree-traversal/
-* https://www.geeksforgeeks.org/write-a-c-program-to-delete-a-tree/
-* https://en.wikipedia.org/wiki/Reverse_Polish_notation
+* [BFS tree print](https://www.geeksforgeeks.org/level-order-tree-traversal/)
+* [Use post order traversal to delete a tree](https://www.geeksforgeeks.org/write-a-c-program-to-delete-a-tree/)
+* Related to postorder traveral [RPN](https://en.wikipedia.org/wiki/Reverse_Polish_notation)
 
 
 ### Meta
