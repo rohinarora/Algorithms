@@ -5,4 +5,4 @@
   * Explicit neighbour wise. ./bfs_1.py
 * ToDo-
   * Practice "shortest path by bfs problem"
-  * Practice "connected components via DFS"
+  * Practice "connected components of UG via BFS and DFS"
