@@ -1,5 +1,4 @@
 from collections import deque
-from collections import defaultdict
 def bfs(graph,s):
     # graph is the directed graph as a dict
     # s is the starting vertex
